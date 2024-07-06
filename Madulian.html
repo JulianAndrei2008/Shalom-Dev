@@ -6,32 +6,36 @@
     <link rel="stylesheet" href="">
     <title>Document</title>
     <script src="js/index.js"></script>
-    <link rel="stylesheeet" href="dtyle.css">
+    <link rel="sylesheeet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div id="container">
-        <h1>Login</h1>
-        <label for="email">
-            Email:
-            <input type="text">
-        </label>
-        <br></br>
-        <label for="senha">
-            Senha:
-            <input type="password">
-        </label>
-        <br><br>
-        <div id="caixa-botoes">
-        <button onclick= "logar()">Logar</buttononclick></button>
-        <button><a href="Madulian2.html">
-            Cadastrar
-        </a>
-    </button>
-        <br>
-        <script>
-             function logar(){alert('Você fez seu login com sucesso')}
-        </script>
-        </div>
+    <div class="Login">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nome do Usuario"
+                required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="Senha"
+                placeholder="password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="Esqueceu sua senha?">
+                <label><input type="checkbox"> Remember me
+                </label>
+                <a href="#">Esqueceu sua senha</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Não possui conta? <a
+                href="#">Registrar</a></p>
+            </div>
+            </div>
+        </form>
+        </form>
     </div>
 </body>
 </html>
