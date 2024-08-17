@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background: url(paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Caixa_de_Menu {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, .2)
+}
+
+
+.Menu {
+    background: url(Logo.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.Lançamentos {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Biografia {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Perfil {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Login {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Spoilers {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
